@@ -1,15 +1,15 @@
 package com.cauahmachado.petadoptionsystem.model;
 
 public class Endereco {
-    private int numeroCasa;
+    private String numeroCasa;
     private String cidade;
-    private String Rua;
+    private String rua;
 
-    public int getNumeroCasa() {
+    public String getNumeroCasa() {
         return numeroCasa;
     }
 
-    public void setNumeroCasa(int numeroCasa) {
+    public void setNumeroCasa(String numeroCasa) {
         this.numeroCasa = numeroCasa;
     }
 
@@ -22,10 +22,10 @@ public class Endereco {
     }
 
     public String getRua() {
-        return Rua;
+        return rua;
     }
 
     public void setRua(String rua) {
-        Rua = rua;
+        rua = rua;
     }
 }

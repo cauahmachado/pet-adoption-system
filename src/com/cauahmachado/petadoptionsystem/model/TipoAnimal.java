@@ -1,6 +1,6 @@
 package com.cauahmachado.petadoptionsystem.model;
 
-public enum TipoTipo {
+public enum TipoAnimal {
     CACHORRO,
     GATO
 }

@@ -1,4 +1,5 @@
 import com.cauahmachado.petadoptionsystem.service.FormularioService;
+import com.cauahmachado.petadoptionsystem.service.PetService;
 import com.cauahmachado.petadoptionsystem.ui.Menu;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -8,6 +9,8 @@ public class Main {
         FormularioService formularioService = new FormularioService();
         Menu menu = new Menu();
        // formularioService.exibirFormulario();
-        menu.exibirMenu();
+       // menu.exibirMenu();
+       PetService petService = new PetService();
+
     }
 }

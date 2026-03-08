@@ -3,17 +3,24 @@ package com.cauahmachado.petadoptionsystem.model;
 public class Pet {
     private String nome;
     private String sobrenome;
-    private TipoTipo tipo;
+    private TipoAnimal tipo;
     private TipoSexo sexo;
-    private double idadeAproximada;
-    private double pesoAproximado;
+    private String idade;
+    private String peso;
     private String raca;
-
-
+    private Endereco endereco;
 
 
     public String getNome() {
         return nome;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 
     public void setNome(String nome) {
@@ -28,11 +35,11 @@ public class Pet {
         this.sobrenome = sobrenome;
     }
 
-    public TipoTipo getTipo() {
+    public TipoAnimal getTipo() {
         return tipo;
     }
 
-    public void setTipo(TipoTipo tipo) {
+    public void setTipo(TipoAnimal tipo) {
         this.tipo = tipo;
     }
 
@@ -44,20 +51,20 @@ public class Pet {
         this.sexo = sexo;
     }
 
-    public double getIdadeAproximada() {
-        return idadeAproximada;
+    public String getIdade() {
+        return idade;
     }
 
-    public void setIdadeAproximada(double idadeAproximada) {
-        this.idadeAproximada = idadeAproximada;
+    public void setIdade(String idade) {
+        this.idade = idade;
     }
 
-    public double getPesoAproximado() {
-        return pesoAproximado;
+    public String getPeso() {
+        return peso;
     }
 
-    public void setPesoAproximado(double pesoAproximado) {
-        this.pesoAproximado = pesoAproximado;
+    public void setPeso(String peso) {
+        this.peso = peso;
     }
 
     public String getRaca() {
