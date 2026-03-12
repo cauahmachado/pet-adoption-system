@@ -26,6 +26,6 @@ public class Endereco {
     }
 
     public void setRua(String rua) {
-        rua = rua;
+        this.rua = rua;
     }
 }
